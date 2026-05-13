@@ -1,0 +1,11 @@
+<div class="neo-card">
+  <h2>Register</h2>
+  <input [(ngModel)]="user.name" name="name" placeholder="Full Name">
+  <input [(ngModel)]="user.email" name="email" placeholder="Email Address">
+  <input [(ngModel)]="user.password" name="password" type="password" placeholder="Password">
+  <button (click)="onReg()">Sign Up</button>
+  
+  <p class="link-text">
+    Already have an account? <a routerLink="/login">Login here</a>
+  </p>
+</div>
